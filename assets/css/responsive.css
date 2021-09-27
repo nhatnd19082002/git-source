@@ -1,0 +1,105 @@
+/* PC */
+@media (min-width: 1024px) {
+    
+}
+/* Tablet */
+@media (max-width: 1023px) and (min-width: 740px) {
+    .place-buy-button {
+        padding: 16px 20px;
+    }
+
+    .contact-form .form-submit {
+        padding: 16px 24px;
+    }
+
+    .contact-form .form-control {
+        padding: 16px;
+    }
+
+    #footer .socials-list {
+        font-size: 48px;
+    }
+
+    #footer .socials-list a {
+        margin: 0 4px;
+    }
+
+    #footer .copyright a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+/* Mobile*/
+@media (max-width: 739px) {
+    .s-col-full {
+        width: 100%;
+    }
+
+    .s-full-width {
+        width: 100%;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .button-search {
+        display: none;
+    }
+
+    #header .button-menu {
+        display: block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav li {
+        display: block;
+    }
+
+    #nav li a {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: black;
+    }
+
+    #nav .subnav a {
+        color: white;
+        padding: 4px 42px;
+        width: auto;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    #content .about-text {
+        word-spacing: -1px;
+    }
+
+    .place-buy-button {
+        width: 100%;
+        text-align: center;
+    }
+
+    #contact .contact-form {
+        margin-top: 16px;
+    }
+
+    #contact .email-mgt-8 {
+        margin-top: 8px;
+    }
+}
